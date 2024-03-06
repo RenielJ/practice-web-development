@@ -15,4 +15,11 @@ h1, h2{
     color: blue;
 }
 
-/* Chaining */ 
+/* Chaining - specific*/ 
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
