@@ -32,10 +32,30 @@ children of the .container class.
     .blue {background-color: #4834d4;}
     .indigo {background-color: #30336b;}
     .purple {background-color: #be2edd;}
+    
+    .navbar{
+      font-size: x-large;
+      display: flex;
+      gap: 2em;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      list-style: none;
+      margin-bottom: 30px;
+    }
+    .navbar{
+      justify-content: end;
+    }
   </style>
 </head>
 
 <body>
+  <nav class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Best Programming website in the world</a></li>
+  </nav>
+
   <div class="container">
     <div class="red">Red</div>
     <div class="orange">Orange</div>
@@ -46,6 +66,9 @@ children of the .container class.
     <div class="purple">Purple</div>
   </div>
   
+
+
+
 </body>
 
 </html>
