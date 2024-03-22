@@ -5,49 +5,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Practice WebDev</title>
         <style>
-            
+            body{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: aliceblue;
+                margin: 20px;
+            }
+            h1{
+                text-align: center;
+                font-size: 2rem;
+            }
+            .section{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+            .list{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                list-style-type: none;
+                width: 500px;
+                align-items: center;
+                
+            }
+            .html-list{
+                margin: 10px;
+                padding: 10px;
+                background-color: #E34C26;
+                width: 100px;
+            }
+            .css-list{
+                margin: 10px;
+                padding: 10px;
+                background-color: #2565AE;
+                width: 100px;
+            }
+            .html-list > a{
+                color: black;
+                text-decoration: none;
+            }
+            .css-list > a{
+                color: black;
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
-        <h1>Welcome to my practice Web-development!</h1>
-        <section class="html-section">
+        <h1>Welcome to my Practice Web-development</h1>
+        <main>
+        <section class="section">
             <h3> HTML </h3>
             <h5> HyperText MarkUp Language </h5>
-            <ol>
-                <li><a href="./html/2.1+Heading+Element/2.1 Heading Element/index.html">Practice 1</a></li>
-                <li><a href="./html/2.2+Paragraph+Element/2.2 Paragraph Element/index.html">Practice 2</a></li>
-                <li><a href="./html/2.4+Movie+Ranking+Project/2.4 Movie Ranking Project/index.html">Practice 3</a></li>
-                <li><a href="./html/3.0+List+Elements/3.0 List Elements/index.html">Practice 4</a></li>
-                <li><a href="./html/3.1+Nesting+and+Indentation/3.1 Nesting and Indentation/index.html">Practice 5</a></li>
-                <li><a href="./html/3.2+Anchor+Elements/3.2 Anchor Elements/index.html">Practice 6</a></li>
-                <li><a href="./html/4.0+File+Paths/4.0 File Paths/Folder0/index.html">Practice 7</a></li>
-                <li><a href="./html/4.1+Webpages/index.html">Practice 8</a></li>
+            <ol class ="list">
+                <li class="html-list"><a href="./html/2.1+Heading+Element/2.1 Heading Element/index.html">1</a></li>
+                <li class="html-list"><a href="./html/2.2+Paragraph+Element/2.2 Paragraph Element/index.html">2</a></li>
+                <li class="html-list"><a href="./html/2.4+Movie+Ranking+Project/2.4 Movie Ranking Project/index.html">3</a></li>
+                <li class="html-list"><a href="./html/3.0+List+Elements/3.0 List Elements/index.html">4</a></li>
+                <li class="html-list"><a href="./html/3.1+Nesting+and+Indentation/3.1 Nesting and Indentation/index.html">5</a></li>
+                <li class="html-list"><a href="./html/3.2+Anchor+Elements/3.2 Anchor Elements/index.html">6</a></li>
+                <li class="html-list"><a href="./html/4.0+File+Paths/4.0 File Paths/Folder0/index.html">7</a></li>
+                <li class="html-list"><a href="./html/4.1+Webpages/index.html">8</a></li>
             </ol>
         </section>
-        <section>
+        <section class="section">
             <h3> CSS </h3>
             <h5> Cascading Style Sheet</h5>
-            <>
-                <li><a href="./css/code/5.1+Adding+CSS/5.1. Adding CSS/index.html">Practice 1</a></li>
-                <li><a href="./css/code/5.3+CSS+Selectors/5.3 CSS Selectors/index.html">Practice 2</a></li>
-                <li><a href="./css/code/5.4+Color+Vocab+Project/index.html">Practice 3</a></li>
-                <li><a href="./css/code/6.0+CSS+Colors/6.0 CSS Colors/index.html">Practice 4</a></li>
-                <li><a href="./css/code/6.1+Font+Properties/index.html">Practice 5</a></li>
-                <li><a href="./css/code/6.3+CSS+Box+Model/6.3 CSS Box Model/index.html">Practice 6</a></li>
-                <li><a href="./css/code/6.4+Motivation+Meme+Project/6.4 Motivation Meme Project/index.html">Practice 7</a></li>
-                <li><a href="./css/code/7.0+CSS+Cascade/index.html">Practice 8</a></li>
-                <li><a href="./css/code/7.1+Combining+Selectors/7.1 Combining Selectors/index.html">Practice 9</a></li>
-                <li><a href="./css/code/7.2+CSS+Positioning/7.2 CSS Positioning/index.html">Practice 10</a></li>
-                <li><a href="./css/code/7.3+Flag+Project/7.3 CSS Flag Project/index.html">Practice 11</a></li>
-                <li><a href="./css/code/8.0+CSS+Display/8.0 CSS Display/index.html">Practice 12</a></li>
+            <ol  class = "list">
+                <li class="css-list"><a href="./css/code/5.1+Adding+CSS/5.1. Adding CSS/index.html">1</a></li>
+                <li class="css-list"><a href="./css/code/5.3+CSS+Selectors/5.3 CSS Selectors/index.html">2</a></li>
+                <li class="css-list"><a href="./css/code/5.4+Color+Vocab+Project/index.html">3</a></li>
+                <li class="css-list"><a href="./css/code/6.0+CSS+Colors/6.0 CSS Colors/index.html"> 4</a></li>
+                <li class="css-list"><a href="./css/code/6.1+Font+Properties/index.html"> 5</a></li>
+                <li class="css-list"><a href="./css/code/6.3+CSS+Box+Model/6.3 CSS Box Model/index.html"> 6</a></li>
+                <li class="css-list"><a href="./css/code/6.4+Motivation+Meme+Project/6.4 Motivation Meme Project/index.html"> 7</a></li>
+                <li class="css-list"><a href="./css/code/7.0+CSS+Cascade/index.html"> 8</a></li>
+                <li class="css-list"><a href="./css/code/7.1+Combining+Selectors/7.1 Combining Selectors/index.html"> 9</a></li>
+                <li class="css-list"><a href="./css/code/7.2+CSS+Positioning/7.2 CSS Positioning/index.html"> 10</a></li>
+                <li class="css-list"><a href="./css/code/7.3+Flag+Project/7.3 CSS Flag Project/index.html"> 11</a></li>
+                <li class="css-list"><a href="./css/code/8.0+CSS+Display/8.0 CSS Display/index.html"> 12</a></li>
             </ol>
         </section>
-        <section>
+        <section class="section">
             <h3> JS </h3>
             <h5> Javascript</h5>
-            <ol>
+            <ol class="code-list-js">
                 <!-- Add the Lists for practice. -->
             </ol>
         </section>
+    </main>
     </body>
 </html>
